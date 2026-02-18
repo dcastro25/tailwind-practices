@@ -1,148 +1,139 @@
-🎮 Tailwind Practices - React + TypeScript
+Perfecto 🔥 ahora sí ese es el link correcto porque termina en `.vercel.app`.
+
+Aquí tienes tu README actualizado con el enlace correcto listo para pegar:
+
+---
+
+# 🎮 Tailwind Practices - React + TypeScript
 
 Aplicación web desarrollada con React, TypeScript y Vite enfocada en practicar y dominar los fundamentos de Tailwind CSS v4.
-Este proyecto fue creado como práctica para reforzar el uso de utility classes, diseño responsivo y estructura modular en aplicaciones frontend modernas.
+Este proyecto fue creado como práctica para reforzar el uso de utility classes, diseño responsive y estructura modular en aplicaciones frontend modernas.
 
-🚀 Demo en vivo
+---
 
-🔗 https://v0.app/chat/dcastro25-tailwind-practices-DaMjG1SKYce
+## 🚀 Demo en vivo
 
-🧠 Lo que demuestra este proyecto
+🔗 [https://v0-tailwind-practices.vercel.app](https://v0-tailwind-practices.vercel.app)
 
-Uso práctico de Tailwind CSS v4
+---
 
-Aplicación de utility-first CSS
+## 🧠 Lo que demuestra este proyecto
 
-Diseño responsive con breakpoints
+* Uso práctico de Tailwind CSS v4
+* Aplicación de utility-first CSS
+* Diseño responsive con breakpoints
+* Manejo de efectos hover y transiciones
+* Organización modular de componentes
+* Separación de responsabilidades
+* Uso de React con TypeScript
+* Configuración moderna con Vite
+* Buenas prácticas en estructura de proyecto
 
-Manejo de efectos hover y transiciones
+---
 
-Organización modular de componentes
+## 🏗️ Estructura del proyecto
 
-Separación de responsabilidades
-
-Uso de React con TypeScript
-
-Configuración moderna con Vite
-
-Buenas prácticas en estructura de proyecto
-
-🏗️ Estructura del proyecto
-
+```
 src/
 │
 ├── videoGames/
-│ ├── components/
-│ │ ├── gameItems.tsx
-│ │ └── videoGameGrids.tsx
-│ │
-│ └── ...
+│   ├── components/
+│   │   ├── gameItems.tsx
+│   │   └── videoGameGrids.tsx
+│   │
+│   └── ...
 │
 ├── models/
-│ └── video-game.ts
+│   └── video-game.ts
 │
 ├── mocks/
-│ └── mocks-file.ts
+│   └── mocks-file.ts
 │
 ├── App.tsx
 ├── index.css
 └── main.tsx
+```
 
-La estructura está organizada por dominio (videoGames/) y responsabilidades (components, models, mocks), permitiendo escalabilidad y mantenimiento sencillo.
+La estructura está organizada por dominio (`videoGames/`) y responsabilidades (`components`, `models`, `mocks`), permitiendo escalabilidad y mantenimiento sencillo.
 
-🛠️ Tecnologías utilizadas
+---
 
-React 19
+## 🛠️ Tecnologías utilizadas
 
-TypeScript
+* React 19
+* TypeScript
+* Vite
+* Tailwind CSS v4
+* PostCSS
+* ESLint
 
-Vite
+---
 
-Tailwind CSS v4
-
-PostCSS
-
-ESLint
-
-⚙️ Instalación
+## ⚙️ Instalación
 
 Clonar el repositorio:
 
+```bash
 git clone https://github.com/dcastro25/tailwind-practices
+```
 
 Entrar en la carpeta:
 
+```bash
 cd tailwind-practices
+```
 
 Instalar dependencias:
 
+```bash
 npm install
+```
 
 Ejecutar en desarrollo:
 
+```bash
 npm run dev
+```
 
 Compilar para producción:
 
+```bash
 npm run build
+```
 
-🎨 Conceptos de Tailwind practicados
+---
 
-Utility classes (bg-gray-800, rounded-xl, shadow-lg, etc.)
+## 🎨 Conceptos de Tailwind practicados
 
-Layout con Flexbox y Grid
+* Utility classes (`bg-gray-800`, `rounded-xl`, `shadow-lg`)
+* Layout con Flexbox y Grid
+* Hover states (`hover:scale-105`)
+* Transiciones (`transition-transform`, `duration-300`)
+* Overlay con opacidad (`bg-black/40`)
+* Uso de `group` y `group-hover`
+* Responsive design con breakpoints
+* Nueva sintaxis de Tailwind v4 (`@import`)
 
-Hover states (hover:scale-105)
+---
 
-Transiciones (transition-transform, duration-300)
+## 📦 Deploy
 
-Overlay con opacidad (bg-black/40)
+La aplicación está desplegada en producción usando Vercel y se actualiza automáticamente con cada push al repositorio.
 
-Uso de group y group-hover
+---
 
-Responsive design con breakpoints
-
-Nueva sintaxis de Tailwind v4 (@import)
-
-📦 Deploy
-
-La aplicación está desplegada en producción y disponible públicamente a través de Vercel.
-
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Oscar Castro
 Frontend Developer en formación
 
-GitHub: https://github.com/dcastro25
+GitHub: [https://github.com/dcastro25](https://github.com/dcastro25)
 
-📌 Nota
+---
 
-Este proyecto forma parte de mi proceso de aprendizaje y práctica en desarrollo Frontend moderno, enfocado en dominar Tailwind CSS y mejorar la calidad visual y estructural de mis
+## 📌 Nota
 
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+Este proyecto forma parte de mi proceso de aprendizaje y práctica en desarrollo Frontend moderno, enfocado en dominar Tailwind CSS y mejorar la calidad visual y estructural de mis aplicaciones.
 
-export default defineConfig([
-globalIgnores(["dist"]),
-{
-files: ["**/*.{ts,tsx}"],
-extends: [
-// Other configs...
-// Enable lint rules for React
-reactX.configs["recommended-typescript"],
-// Enable lint rules for React DOM
-reactDom.configs.recommended,
-],
-languageOptions: {
-parserOptions: {
-project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-tsconfigRootDir: import.meta.dirname,
-},
-// other options...
-},
-},
-]);
+---
 
-```
-
-```
